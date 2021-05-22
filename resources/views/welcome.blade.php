@@ -38,6 +38,7 @@
                     adalah barang yang dipesan. Contoh: jumlah dan mutu barang itu tidak sesuai dengan pesanan.
                 </p>
                 <a href="api/order" class="btn btn-danger">API : Order</a>
+                <a href="/order" class="btn btn-danger">CURD : Order</a>
             </div>
         </section>
 
@@ -52,6 +53,7 @@
                     Kepentingan <span style='color: #6610f2;'>konsumen</span> adalah memenuhi kebutuhannya dengan memperhitungkan keterjangkauan daya belinya.
                 </p>
                 <a href="api/consumen" class="btn" style="background-color:#6610f2;">API : Consumen</a>
+                <a href="/consumen" class="btn" style="background-color:#6610f2;">CURD : Consumen</a>
             </div>
         </section>
 
@@ -64,6 +66,7 @@
                     Dan <span style='color: #fd7e14;'>penjual</span> mempertemukan dengan <span style='color: #6610f2;'>pembeli</span>.
                 </p>
                 <a href="api/seller" class="btn" style="background-color:#fd7e14;">API : Seller</a>
+                <a href="/seller" class="btn" style="background-color:#fd7e14;">CURD : Seller</a>
             </div>
         </section>
 
@@ -76,6 +79,7 @@
                     <span class="text-success">barang</span> ataupun <span class="text-success">jasa</span> yang nantinya bisa diperjualbelikan di pasar.
                 </p>
                 <a href="api/product" class="btn btn-success">API : Product</a>
+                <a href="/product" class="btn btn-success">CURD : Product</a>
             </div>
         </section>
     </main>
