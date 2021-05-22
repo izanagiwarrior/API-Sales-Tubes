@@ -105,7 +105,7 @@ class OrderController extends Controller
         $order->id_penjual = $request->id_penjual;
         $order->id_barang = $request->id_barang;
         $order->jumlah_barang = $request->jumlah_barang;
-        $order->diskon_barang = $request->diskon_barang;
+        $order->diskon_barang = $request->diskon_barang."%";
         $order->total_harga = $request->total_harga;
         $order->tanggal_pesanan = $request->tanggal_pesanan;
         $order->tanggal_pembayaran = $request->tanggal_pembayaran;
